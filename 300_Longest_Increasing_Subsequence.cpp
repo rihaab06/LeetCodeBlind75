@@ -1,6 +1,6 @@
 #include<iostream>
 #include<vector>
-#include<math>
+#include<algorithm>
 using namespace std;
 class Solution{
 public:
@@ -24,6 +24,11 @@ public:
     }
 };
 int main(){
-    
+     vector<int> nums = {10, 9, 2, 5, 3, 7, 101, 18};
+Solution sol;
+cout << "Longest Increasing Subsequence length: "
+     << sol.lengthOfLIS(nums) << endl;
+
+    return 0;
 return 0;
 }
